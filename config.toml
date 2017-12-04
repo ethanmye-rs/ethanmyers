@@ -1,4 +1,4 @@
-baseurl             = "hasxz.github.io"
+baseurl             = "/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
