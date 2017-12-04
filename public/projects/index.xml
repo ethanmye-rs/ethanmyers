@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Ethan Myers</title>
+    <link>ethanmye.rs/projects/</link>
+    <description>Recent content in Projects on Ethan Myers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 22 Aug 2015 06:42:21 -0700</lastBuildDate>
+    
+	<atom:link href="ethanmye.rs/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ESP-12 Programming Jig</title>
+      <link>ethanmye.rs/projects/esp12jig/</link>
+      <pubDate>Thu, 25 Aug 2016 17:09:14 -0500</pubDate>
+      
+      <guid>ethanmye.rs/projects/esp12jig/</guid>
+      <description>I’m building a small product the uses the ESP8266 chipset to enable mesh networking between a variety of devices. However, I need a way to program them initially, before they go onto the carrier PCB that contains power + peripherals. It’s a pain to try and breadboard or deadbug the 7 or so connections needed to flash new firmware, and both require soldering, something I’m trying to avoid, as they will be soldered in the final assembly and I’d like to reduce potential sources of failure.</description>
+    </item>
+    
+    <item>
+      <title>LED Growlights</title>
+      <link>ethanmye.rs/projects/growlights/</link>
+      <pubDate>Thu, 25 Aug 2016 17:09:14 -0500</pubDate>
+      
+      <guid>ethanmye.rs/projects/growlights/</guid>
+      <description>I happen to grow a few plants, none of which are marijuana, and wanted to have a way to keep them alive through the winter. Thus, I set out to build some grow lights.
+I considered using HPS/MH, but had no desire to change bulbs or buy an expensive driver. I also wasn’t a fan on the point source illumination, wanting to spread out the output evenly over a range of plants, or the high amount of heat generated.</description>
+    </item>
+    
+    <item>
+      <title>Low Cost Geiger Counter</title>
+      <link>ethanmye.rs/projects/geiger/</link>
+      <pubDate>Thu, 25 Aug 2016 17:09:14 -0500</pubDate>
+      
+      <guid>ethanmye.rs/projects/geiger/</guid>
+      <description>I wanted to build an X-ray machine. Not really knowing a ton about x-ray machine design, I decided to dip my toe into the pool of high voltage and dangerous devices with a Geiger counter.
+I started with the HV power supply. I&amp;rsquo;m using a SBM-20 tube, and need around 400V across the tube for proper operation. However, it needs a few uA a best, making the design fairly trivial. I opted to use a boost converter, although if I was going to build more than one, I&amp;rsquo;d probably move to a transformer.</description>
+    </item>
+    
+    <item>
+      <title>Piezoelectric Acoustic Leviation</title>
+      <link>ethanmye.rs/projects/acousticlevitation/</link>
+      <pubDate>Thu, 25 Aug 2016 17:09:14 -0500</pubDate>
+      
+      <guid>ethanmye.rs/projects/acousticlevitation/</guid>
+      <description>Because tinnitus is for the old, I decided to build an acoustic levitator. Essentially, the idea is to set up a standing wave and use that to hold small objects in the air at each node. Do it at a high enough frequency and a high enough power and you can hold small Styrofoam pellets, bits of packing peanuts, etc.
+The main design centers around a piezo transducer, resonant at around 40kHz (this depends on loading, coupling etc and should be tuned).</description>
+    </item>
+    
+  </channel>
+</rss>
