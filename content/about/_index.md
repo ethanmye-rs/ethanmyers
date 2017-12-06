@@ -10,4 +10,4 @@ I’m a college student who uses this to think about my various projects. It’s
 
 If you want to get in touch, send me an email.
 
-The site is built with [Hugo](http://gohugo.io/) and a theme called [Cocoa](https://themes.gohugo.io/cocoa/). It's hosted by [Netlify](netlify.com). I load external webfonts from Google and a small bit of analytics code. You can disable this by running adblocker -- I recommend uBlock Origin.
+The site is built with [Hugo](http://gohugo.io/) and a theme called [Cocoa](https://themes.gohugo.io/cocoa/). It's hosted by [Netlify](netlify.com).
