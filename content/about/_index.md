@@ -5,10 +5,9 @@ title = "About"
 
 +++
 
-This is my small personal site, built with Hugo and a theme called Cocoa. 
-
-I put together this site to showcase some of the things I like to do in my free time.
 
 I’m a college student who uses this to think about my various projects. It’s not really supposed to be public, but it’s here for your viewing pleasure.
 
 If you want to get in touch, send me an email.
+
+The site is built with [Hugo](http://gohugo.io/) and a theme called [Cocoa](https://themes.gohugo.io/cocoa/). It's hosted by [Netlify](netlify.com). I load external webfonts from Google and a small bit of analytics code. You can disable this by running adblocker -- I recommend uBlock Origin.
