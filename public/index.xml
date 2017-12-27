@@ -6,10 +6,20 @@
     <description>Recent content on Ethan Myers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Aug 2016 17:09:14 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 26 Dec 2017 17:09:14 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Serial VFD</title>
+      <link>/projects/vfd/</link>
+      <pubDate>Tue, 26 Dec 2017 17:09:14 -0500</pubDate>
+      
+      <guid>/projects/vfd/</guid>
+      <description>I was rummaging through some junk during my break from school and found some old audio equipment, complete with a VFD for a front panel. I have some spare time on my hands, so I set aside some time to try and get it working. Lo and behold, it&amp;rsquo;s a commercial module &amp;ndash; a CU20025SCPB-T20A from Noritake Itron. This makes things way easier.
+The best part about this display is the datasheet &amp;ndash; it&amp;rsquo;s freely available on the web.</description>
+    </item>
     
     <item>
       <title>ESP-12 Programming Jig</title>

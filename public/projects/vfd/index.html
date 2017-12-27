@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Ethan Myers">
+<meta name="description" content="I was rummaging through some junk during my break from school and found some old audio equipment, complete with a VFD for a front panel. I have some spare time on my hands, so I set aside some time to try and get it working. Lo and behold, it&rsquo;s a commercial module &ndash; a CU20025SCPB-T20A from Noritake Itron. This makes things way easier.
+The best part about this display is the datasheet &ndash; it&rsquo;s freely available on the web.">
+
+<meta property="og:title" content="Serial VFD" />
+<meta property="og:description" content="I was rummaging through some junk during my break from school and found some old audio equipment, complete with a VFD for a front panel. I have some spare time on my hands, so I set aside some time to try and get it working. Lo and behold, it&rsquo;s a commercial module &ndash; a CU20025SCPB-T20A from Noritake Itron. This makes things way easier.
+The best part about this display is the datasheet &ndash; it&rsquo;s freely available on the web." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/projects/vfd/" />
+
+
+
+<meta property="article:published_time" content="2017-12-26T17:09:14-05:00"/>
+
+<meta property="article:modified_time" content="2017-12-26T17:09:14-05:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<title>
+
+
+     Serial VFD 
+
+</title>
+<link rel="canonical" href="/projects/vfd/">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="/css/reset.css?t=2017-12-27%2013%3a30%3a16.9750001%20-0700%20MST%20m%3d%2b0.124582301">
+    <link rel="stylesheet" href="/css/pygments.css?t=2017-12-27%2013%3a30%3a16.9750001%20-0700%20MST%20m%3d%2b0.124582301">
+    <link rel="stylesheet" href="/css/main.css?t=2017-12-27%2013%3a30%3a16.9750001%20-0700%20MST%20m%3d%2b0.124582301">
+    
+        <link rel="stylesheet" href="/css/override.css?t=2017-12-27%2013%3a30%3a16.9750001%20-0700%20MST%20m%3d%2b0.124582301">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="/img/leaf.ico"
+
+>
+
+
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                
+                
+                <a href="/"><img class="avatar" src="/img/profile.png" srcset="/img/profile.png 1x,/img/profile-2x.png 2x,/img/profile-3x.png 3x,/img/profile-4x.png 4x"></a>
+            
+            <a href="/"><div class="name">Ethan Myers</div></a>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-about"><a href="/about/"><span>About</span></a></li>
+                    
+                        <li class="nav-projects"><a href="/projects/"><span>Projects</span></a></li>
+                    
+                        <li class="nav-books"><a href="/books/"><span>Books</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            
+        
+
+        
+
+        
+            <a href="mailto:myeeth@protonmail.ch"><img class="icon" src="/img/email.svg" alt="email" /></a>
+        
+
+        
+            <a href="/index.xml"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
+        
+        
+        </div>
+    </div>
+</section>
+
+<section class="main">
+    <div class="container">
+        <div class="content">
+            <div class="page-heading">
+
+    Serial VFD
+
+</div>
+
+            <div class="markdown">
+                <p>I was rummaging through some junk during my break from school and found some old audio equipment, complete with a VFD for a front panel. I have some spare time on my hands, so I set aside some time to try and get it working. Lo and behold, it&rsquo;s a commercial module &ndash; a CU20025SCPB-T20A from Noritake Itron. This makes things way easier.</p>
+
+<p><img src="/img/VFD/IMG_0079.JPG" alt="T20A" /></p>
+
+<p>The best part about this display is the <a href="/pdf/CU20025SCPB-T20A-05.pdf">datasheet</a> &ndash; it&rsquo;s freely available on the web. It contains everything you need to know, including software commands plus hookup and voltage specs. This makes re-purposing the display much easier.</p>
+
+<p>To get it working, you need to connect you microcontroller&rsquo;s TX pin to the SIG pin on the VFD &ndash; it&rsquo;s #2 on the white three-pin connector, or #3 on the IDC connector. You also need to connect to a decent 5V supply &ndash; my VFD uses around 250mA, although the datasheet specs it at up to 320mA. You also need to connect the grounds if using an external supply.</p>
+
+<p><img src="/img/VFD/IMG_0080.JPG" alt="T20A" /></p>
+
+<p><img src="/img/VFD/IMG_0081.JPG" alt="T20A" /></p>
+
+<p>On the software side, it&rsquo;s equally simple. Noritake Itron provides a dedicated library, but there&rsquo;s no real point in using it, as it&rsquo;s incredibly easy to set it up yourself. This is my C++ code which I uploaded to the Arduino via <a href="http://platformio.org/">platformio</a>.</p>
+
+<pre><code>#include &lt;Arduino.h&gt;
+#include &lt;SoftwareSerial.h&gt;
+
+SoftwareSerial VFD(6,7); // RX, TX
+ 
+void setup()
+{
+  VFD.begin(19200);
+}
+
+void VFDclearscreen(void)
+{
+  VFD.write(0x0E); // clear the VFD
+  VFD.write(0x0C); // move cursor to top left
+}
+ 
+void loop()
+{
+  for (int i = 23 ; i &lt; 256; i++)
+  {
+    VFD.write(0x16); // turn that annoying little cursor off.
+    VFD.write(i);
+    delay(250);
+  }
+  VFDclearscreen();
+}
+</code></pre>
+
+<p>This will print a looping string of characters to the display. Check out the data sheet for more interesting commands &ndash; font, cursor blink speed, scroll modes, brightness etc are all adjustable via serial.</p>
+
+<p>To convert the commands in the datasheet into something nice for the arduino, replace the H in the command with 0x and move it to the front, i.e, 08H &ndash;&gt; 0x08.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
