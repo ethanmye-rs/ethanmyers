@@ -10,11 +10,11 @@
 <meta name="referrer" content="no-referrer">
 <meta name="author" content="Ethan Myers">
 <meta name="description" content="I was rummaging through some junk during my break from school and found some old audio equipment, complete with a VFD for a front panel. I have some spare time on my hands, so I set aside some time to try and get it working. Lo and behold, it&rsquo;s a commercial module &ndash; a CU20025SCPB-T20A from Noritake Itron. This makes things way easier.
-The best part about this display is the datasheet &ndash; it&rsquo;s freely available on the web.">
+If you just want to see the VFD in its florescent blue glory, here is the YouTube video.">
 
 <meta property="og:title" content="Serial VFD" />
 <meta property="og:description" content="I was rummaging through some junk during my break from school and found some old audio equipment, complete with a VFD for a front panel. I have some spare time on my hands, so I set aside some time to try and get it working. Lo and behold, it&rsquo;s a commercial module &ndash; a CU20025SCPB-T20A from Noritake Itron. This makes things way easier.
-The best part about this display is the datasheet &ndash; it&rsquo;s freely available on the web." />
+If you just want to see the VFD in its florescent blue glory, here is the YouTube video." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/projects/vfd/" />
 
@@ -57,11 +57,11 @@ The best part about this display is the datasheet &ndash; it&rsquo;s freely avai
 
 
     
-    <link rel="stylesheet" href="/css/reset.css?t=2017-12-27%2013%3a30%3a16.9750001%20-0700%20MST%20m%3d%2b0.124582301">
-    <link rel="stylesheet" href="/css/pygments.css?t=2017-12-27%2013%3a30%3a16.9750001%20-0700%20MST%20m%3d%2b0.124582301">
-    <link rel="stylesheet" href="/css/main.css?t=2017-12-27%2013%3a30%3a16.9750001%20-0700%20MST%20m%3d%2b0.124582301">
+    <link rel="stylesheet" href="/css/reset.css?t=2017-12-27%2013%3a38%3a03.847944%20-0700%20MST%20m%3d%2b0.120756001">
+    <link rel="stylesheet" href="/css/pygments.css?t=2017-12-27%2013%3a38%3a03.847944%20-0700%20MST%20m%3d%2b0.120756001">
+    <link rel="stylesheet" href="/css/main.css?t=2017-12-27%2013%3a38%3a03.847944%20-0700%20MST%20m%3d%2b0.120756001">
     
-        <link rel="stylesheet" href="/css/override.css?t=2017-12-27%2013%3a30%3a16.9750001%20-0700%20MST%20m%3d%2b0.124582301">
+        <link rel="stylesheet" href="/css/override.css?t=2017-12-27%2013%3a38%3a03.847944%20-0700%20MST%20m%3d%2b0.120756001">
     
 
 
@@ -180,6 +180,8 @@ The best part about this display is the datasheet &ndash; it&rsquo;s freely avai
             <div class="markdown">
                 <p>I was rummaging through some junk during my break from school and found some old audio equipment, complete with a VFD for a front panel. I have some spare time on my hands, so I set aside some time to try and get it working. Lo and behold, it&rsquo;s a commercial module &ndash; a CU20025SCPB-T20A from Noritake Itron. This makes things way easier.</p>
 
+<p>If you just want to see the VFD in its florescent blue glory, <a href="https://youtu.be/wPKwINaOQmE">here</a> is the YouTube video.</p>
+
 <p><img src="/img/VFD/IMG_0079.JPG" alt="T20A" /></p>
 
 <p>The best part about this display is the <a href="/pdf/CU20025SCPB-T20A-05.pdf">datasheet</a> &ndash; it&rsquo;s freely available on the web. It contains everything you need to know, including software commands plus hookup and voltage specs. This makes re-purposing the display much easier.</p>
@@ -221,6 +223,8 @@ void loop()
 </code></pre>
 
 <p>This will print a looping string of characters to the display. Check out the data sheet for more interesting commands &ndash; font, cursor blink speed, scroll modes, brightness etc are all adjustable via serial.</p>
+
+<p>Final result is viewable <a href="https://youtu.be/wPKwINaOQmE">here</a>.</p>
 
 <p>To convert the commands in the datasheet into something nice for the arduino, replace the H in the command with 0x and move it to the front, i.e, 08H &ndash;&gt; 0x08.</p>
 

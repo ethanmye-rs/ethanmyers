@@ -7,6 +7,8 @@ slug = 'vfd'
 +++
 I was rummaging through some junk during my break from school and found some old audio equipment, complete with a VFD for a front panel. I have some spare time on my hands, so I set aside some time to try and get it working. Lo and behold, it's a commercial module -- a CU20025SCPB-T20A from Noritake Itron. This makes things way easier.
 
+If you just want to see the VFD in its florescent blue glory, [here](https://youtu.be/wPKwINaOQmE) is the YouTube video.
+
 ![T20A][one]
 
 The best part about this display is the [datasheet](/pdf/CU20025SCPB-T20A-05.pdf) -- it's freely available on the web. It contains everything you need to know, including software commands plus hookup and voltage specs. This makes re-purposing the display much easier. 
@@ -52,11 +54,11 @@ void loop()
 
 This will print a looping string of characters to the display. Check out the data sheet for more interesting commands -- font, cursor blink speed, scroll modes, brightness etc are all adjustable via serial.
 
+Final result is viewable [here](https://youtu.be/wPKwINaOQmE).
+
  To convert the commands in the datasheet into something nice for the arduino, replace the H in the command with 0x and move it to the front, i.e, 08H --> 0x08.
 
 
 [one]: /img/VFD/IMG_0079.JPG
 [two]: /img/VFD/IMG_0081.JPG
 [three]: /img/VFD/IMG_0080.JPG
-
-
