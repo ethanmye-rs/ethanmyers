@@ -61,3 +61,6 @@ I love to read. This is a small list of books and plays I've read or want to rea
 * ~~**Sapiens** *Yuval Noah Harari*~~
 * ~~**Beloved** *Toni Morison*~~
 * ~~**The Giving Tree** *Shel Silverstein*~~
+* ~~**Ready Player One** *Ernest Cline*~~
+* **The Martian** *Andy Weir*
+* **Fire and Fury: Inside the Trump White House** *Michael Wolff*
