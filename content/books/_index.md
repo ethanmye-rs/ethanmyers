@@ -5,7 +5,7 @@ title = "Books"
 
 +++
 
-I love to read. This is a small list of books and plays I've read or want to read, but is not comprehensive.
+I love to read. This is a small list of literature I've read or want to read, but is not comprehensive.
 
 
 * ~~**East Of Eden** *John Steinbeck*~~
