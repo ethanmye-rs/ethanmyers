@@ -6,8 +6,10 @@ title = "About"
 +++
 
 
-My name is Ethan Myers and I'm a student at a large public research university in the US. This site is mostly for me to stay accountable to my projects, and for others to see them, if they so choose.
+My name is Ethan Myers and I'm a student at a large public research university in the US. This site is mostly for me to stay accountable to my projects, but also functions as a portfolio.
 
 My résumé is viewable [here](/pdf/CV_US.pdf).
 
-The site is built with [Hugo](http://gohugo.io/) and a theme called [Cocoa](https://themes.gohugo.io/cocoa/). It's hosted by [Netlify](netlify.com). 
+I can be reached via <ethan@ethanmye.rs>
+
+The site is built with [Hugo](https://gohugo.io/) and a theme called [Cocoa](https://themes.gohugo.io/cocoa/). It's hosted by [Netlify](https://netlify.com/). 

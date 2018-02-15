@@ -64,3 +64,6 @@ I love to read. This is a small list of literature I've read or want to read, bu
 * ~~**Ready Player One** *Ernest Cline*~~
 * **The Martian** *Andy Weir*
 * **Fire and Fury: Inside the Trump White House** *Michael Wolff*
+* **The Alchemy of Air** *Thomas Hager*
+* **And Then There Were None** *Agatha Christie*
+* **Murder on the Orient Express** *Agatha Christie*
