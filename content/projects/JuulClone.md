@@ -35,16 +35,16 @@ Juul has patented this idea, and the patent covers a wide variety of acids and P
 
 You'll need quite a bit of equipment, but a majority of it is low cost. total BOM, including tools, should come to less than $75.
 
-Item | Cost | Source 
------|------|-------
- Pipetman or volumetric pipette   | $10 |eBay / Amazon
- Small beaker or glass test tube  | $5	|eBay / Amazon
- milligram scale 				  | $10	|eBay / Amazon
- Nicotine solution 			      | $10	|eBay / Amazon
- flavoring						  | $10	|eBay / Amazon
- PG/VG 						      | $10	|eBay / Amazon
- Distilled Water				  | $0.59 |eBay / Amazon
- Some sort of acid 			      | $10 |eBay / Amazon
+Item | Cost 
+-----|------
+ Pipetman or volumetric pipette   | $26
+ Small beaker or glass test tube  | $4.88
+ milligram scale 				  | $11.50
+ Nicotine solution 			      | $12.59
+ flavoring						  | $6
+ PG/VG 						      | $8.99
+ Distilled Water				  | $0.59 
+ Some sort of acids       	      | $10 |eBay / Amazon
 
 
 
@@ -59,4 +59,4 @@ You'll want to make sure you fully mix all ingredients. You can warm up the solu
 
 # Going Forward
 
-I don't actually smoke, so this isn't a project I'll be pursing in the future. However, I think there are several avenues worth pursuing. Notably -- synthetic nicotine, which lacks the impurities that affect flavor in commercially avaiable extracted nicotine, compound acid mixtures (i.e, a mixture of malic acid and benzoic acid), reduced nicotine levels, novel carriers, etc.
+I don't actually smoke, so this isn't a project I'll be pursing in the future. However, I think there are several avenues worth pursuing. Notably -- synthetic nicotine, which lacks the impurities that affect flavor in commercially available extracted nicotine, compound acid mixtures (i.e, a mixture of malic acid and benzoic acid), reduced nicotine levels, novel carriers, etc.
