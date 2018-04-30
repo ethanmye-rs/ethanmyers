@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Ethan Myers">
+<meta name="description" content="I wanted to build an X-ray machine. Not really knowing a ton about x-ray machine design, I decided to dip my toe into the pool of high voltage and dangerous devices with a Geiger counter.
+I started with the HV power supply. I&rsquo;m using a SBM-20 tube, and need around 400V across the tube for proper operation. However, it needs a few uA a best, making the design fairly trivial. I opted to use a boost converter, although if I was going to build more than one, I&rsquo;d probably move to a transformer.">
+
+<meta property="og:title" content="Low Cost Geiger Counter" />
+<meta property="og:description" content="I wanted to build an X-ray machine. Not really knowing a ton about x-ray machine design, I decided to dip my toe into the pool of high voltage and dangerous devices with a Geiger counter.
+I started with the HV power supply. I&rsquo;m using a SBM-20 tube, and need around 400V across the tube for proper operation. However, it needs a few uA a best, making the design fairly trivial. I opted to use a boost converter, although if I was going to build more than one, I&rsquo;d probably move to a transformer." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/projects/geiger/" />
+
+
+
+<meta property="article:published_time" content="2016-08-25T17:09:14-05:00"/>
+
+<meta property="article:modified_time" content="2016-08-25T17:09:14-05:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<title>
+
+
+     Low Cost Geiger Counter 
+
+</title>
+<link rel="canonical" href="/projects/geiger/">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="/css/reset.css?t=2018-03-03%2021%3a17%3a18.6849469%20-0700%20MST%20m%3d%2b0.473531101">
+    <link rel="stylesheet" href="/css/pygments.css?t=2018-03-03%2021%3a17%3a18.6849469%20-0700%20MST%20m%3d%2b0.473531101">
+    <link rel="stylesheet" href="/css/main.css?t=2018-03-03%2021%3a17%3a18.6849469%20-0700%20MST%20m%3d%2b0.473531101">
+    
+        <link rel="stylesheet" href="/css/override.css?t=2018-03-03%2021%3a17%3a18.6849469%20-0700%20MST%20m%3d%2b0.473531101">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="/img/leaf.ico"
+
+>
+
+
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                
+                
+                <a href="/"><img class="avatar" src="/img/profile.png" srcset="/img/profile.png 1x,/img/profile-2x.png 2x,/img/profile-3x.png 3x,/img/profile-4x.png 4x"></a>
+            
+            <a href="/"><div class="name">Ethan Myers</div></a>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-about"><a href="/about/"><span>About</span></a></li>
+                    
+                        <li class="nav-projects"><a href="/projects/"><span>Projects</span></a></li>
+                    
+                        <li class="nav-books"><a href="/books/"><span>Books</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            
+        
+
+        
+
+        
+            <a href="mailto:myeeth@protonmail.ch"><img class="icon" src="/img/email.svg" alt="email" /></a>
+        
+
+        
+            <a href="/index.xml"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
+        
+        
+        </div>
+    </div>
+</section>
+
+<section class="main">
+    <div class="container">
+        <div class="content">
+            <div class="page-heading">
+
+    Low Cost Geiger Counter
+
+</div>
+
+            <div class="markdown">
+                <p>I wanted to build an X-ray machine. Not really knowing a ton about x-ray machine design, I decided to dip my toe into the pool of high voltage and dangerous devices with
+a Geiger counter.</p>
+
+<p>I started with the HV power supply. I&rsquo;m using a SBM-20 tube, and need around 400V across the tube for proper operation. However, it needs a few uA a best, making the design fairly trivial. I opted to use a boost converter, although if I was going to build more than one, I&rsquo;d probably move to a transformer. It&rsquo;s a basic boost design, with a 10uH inductor, UF4007 diode, high voltage BJT, and a switching frequency generated by the Arduino &ndash;  it&rsquo;s somewhere around 10kHz. This is then sent to the filter capacitor, a metalized film cap rated for 800V, and through a resistor to the anode of the tube. Whenever a particle of ionizing radiation hits the tube, it triggers a breakdown, causing a sag in voltage, which is picked up by the Arduino and registered as a count.</p>
+
+<p>Past that, it&rsquo;s a simple serial output. In the future, I&rsquo;ll add a better feedback mechanism, better filtering, a more robust power supply,an LCD interface, and a case so I can stop zapping myself all the damn time.</p>
+
+<p>Realistically, I&rsquo;ll just re-design the thing. However, barring nuclear holocaust, it&rsquo;s not of much practical purpose. Maybe I&rsquo;ll knock it out over the summer.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+</body>
+</html>
+

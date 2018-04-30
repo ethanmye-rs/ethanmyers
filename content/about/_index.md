@@ -12,4 +12,4 @@ My résumé is viewable [here](/pdf/CV_US.pdf).
 
 I can be reached via <ethan@ethanmye.rs>
 
-The site is built with [Hugo](https://gohugo.io/) and a theme called [Cocoa](https://themes.gohugo.io/cocoa/). It's hosted by [Netlify](https://netlify.com/). 
+The site is built with [Hugo](https://gohugo.io/). It's hosted by [Netlify](https://netlify.com/). 

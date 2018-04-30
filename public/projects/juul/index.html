@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Ethan Myers">
+<meta name="description" content="If you&rsquo;ve been on a college campus recently, you may have noticed an annoyingly sweet vapor emanating from a discrete aluminum stick borne of Johnny Ive&rsquo;s hand.
+It&rsquo;s a Juul. Juul is trying to both legitimize and professionalize vaping with a discrete, and admittedly elegant solution. Long gone are the halcyon days of oversized battery packs, flamboyant glass tanks, and a case design reminiscent of a brick phone.
+The future will be served single serve.">
+
+<meta property="og:title" content="Cloning Juul Pods" />
+<meta property="og:description" content="If you&rsquo;ve been on a college campus recently, you may have noticed an annoyingly sweet vapor emanating from a discrete aluminum stick borne of Johnny Ive&rsquo;s hand.
+It&rsquo;s a Juul. Juul is trying to both legitimize and professionalize vaping with a discrete, and admittedly elegant solution. Long gone are the halcyon days of oversized battery packs, flamboyant glass tanks, and a case design reminiscent of a brick phone.
+The future will be served single serve." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/projects/juul/" />
+
+
+
+<meta property="article:published_time" content="2017-12-26T17:09:14-05:00"/>
+
+<meta property="article:modified_time" content="2017-12-26T17:09:14-05:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<title>
+
+
+     Cloning Juul Pods 
+
+</title>
+<link rel="canonical" href="/projects/juul/">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="/css/reset.css?t=2018-04-28%2016%3a14%3a15.5576606%20-0600%20MDT%20m%3d%2b0.522268601">
+    <link rel="stylesheet" href="/css/pygments.css?t=2018-04-28%2016%3a14%3a15.5576606%20-0600%20MDT%20m%3d%2b0.522268601">
+    <link rel="stylesheet" href="/css/main.css?t=2018-04-28%2016%3a14%3a15.5576606%20-0600%20MDT%20m%3d%2b0.522268601">
+    
+        <link rel="stylesheet" href="/css/override.css?t=2018-04-28%2016%3a14%3a15.5576606%20-0600%20MDT%20m%3d%2b0.522268601">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="/img/leaf.ico"
+
+>
+
+
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                
+                
+                <a href="/"><img class="avatar" src="/img/profile.png" srcset="/img/profile.png 1x,/img/profile-2x.png 2x,/img/profile-3x.png 3x,/img/profile-4x.png 4x"></a>
+            
+            <a href="/"><div class="name">Ethan Myers</div></a>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-about"><a href="/about/"><span>About</span></a></li>
+                    
+                        <li class="nav-projects"><a href="/projects/"><span>Projects</span></a></li>
+                    
+                        <li class="nav-books"><a href="/books/"><span>Books</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            
+        
+
+        
+
+        
+            <a href="mailto:myeeth@protonmail.ch"><img class="icon" src="/img/email.svg" alt="email" /></a>
+        
+
+        
+            <a href="/index.xml"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
+        
+        
+        </div>
+    </div>
+</section>
+
+<section class="main">
+    <div class="container">
+        <div class="content">
+            <div class="page-heading">
+
+    Cloning Juul Pods
+
+</div>
+
+            <div class="markdown">
+                <p>If you&rsquo;ve been on a college campus recently, you may have noticed an annoyingly sweet vapor emanating from a discrete aluminum stick borne of Johnny Ive&rsquo;s hand.</p>
+
+<p>It&rsquo;s a Juul. Juul is trying to both legitimize and professionalize vaping with a discrete, and admittedly elegant solution. Long gone are the halcyon days of oversized battery packs, flamboyant glass tanks, and a case design reminiscent of a brick phone.</p>
+
+<p>The future will be served single serve.</p>
+
+<p>Each Juul &ldquo;pod&rdquo; contains nearly 59mg of Nicotine, comparable to a pack of cigarettes &ndash; and priced to compete. They are not refillable and almost totally self contained, needing just the base unit for power. As of March 2018, Juul offers no nicotine free options.</p>
+
+<p>In terms of construction, the Juul pod is surprisingly impressive. Each pod contains a miniaturized wick, coil, stem, and holding tank, which holds about 0.7mL of juice. All the user does is slot the pod into the Juul itself, which provides the power needed to vaporize a small amount of liquid. Each of these self contained systems is capable of being reused several times, but designed exclusively and explicitly for single serve consumption.</p>
+
+<p>The real kicker is the cost. Commercially available Nicotine solution is available for around $0.05 per mL, and flavorings and fillers for even less. With a pack of 4 running for about $16, it&rsquo;s not hard to see why Pax Labs raised a $50M Series-C round. Juul represents a fashionable and sleek way to lure in a new generation of smokers, brought up in the age of D.A.R.E and graphic anti-smoking ads.</p>
+
+<p>As a primer, &ldquo;E-Juice&rdquo; as it&rsquo;s knowm, is a mixture of vegetable glycerin, propylene glycol, nicotine, and flavoring. vegetable glycerin and propylene glycol are aerosolized to create a mist of  vapor, which serves as a carrier for both the flavor and nicotine.</p>
+
+<p>The allure of the Juul pod is not exclusively physical. The magic lies in how the niotine is delivered. Juul relies on using the &ldquo;salt&rdquo; form of nicotine, where as most other manufacturers utilize the freebase form. Essentially, by protonating the freebase nicotine, Juul can deliver a &ldquo;smoother&rdquo; dose of nicotine at higher levels.</p>
+
+<p>Essentially, Juul is trying to produce a very &ldquo;smooth&rdquo; experience by turning freebase nicotine into a salt form. Not unlike turning crack into cocaine, the belief is that a salt form produces a better buzz and allows for higher nicotine dosage whilst reducing &ldquo;throat hit&rdquo;.</p>
+
+<p>I can&rsquo;t resist a good reverse engineering, so I set to reading. To make matters more interesting, I don&rsquo;t vape, so all formulations were tested via proxy.</p>
+
+<p>My first formulations did not understand the significance of the freebase/salt distinction and were almost unusable.</p>
+
+<p>The second try was with a a commercial salt manufacturer, Nude Nicotine. It was OK, but once again, no one is willing to say much of anything on the actual chemistry behind their formulations.</p>
+
+<p>Finally, I went straight to the patents. Their application is a bit cagey, listing a number of potential acids. Ultimately, I narrowed it down to Benzoic Acid, based on a analysis I found showing incredibly high levels in the Juul compared to other brands of e-cigarette.</p>
+
+<p>Unfortunetly, Benzoic acid is basically not at all soluble in polar compounds, so it&rsquo;s virtually impossible to dissolve in PG and VG, both of which are polar molecules. Thankfully, there is a very low cost source of benzoic acid available virtually everywhere &ndash;  Sodium Benzoate.</p>
+
+<p>It&rsquo;s used in just about everything as a preservative, where is mechanism of action is a breakdown into benzoic acid and sodium ions. Combined with the freebase nicotine, this addition should get us a decent dose of salt form nicotine in every puff.</p>
+
+<p>As for the actual formulation,</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
