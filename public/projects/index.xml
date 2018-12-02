@@ -70,5 +70,14 @@ I started with the HV power supply. I&amp;rsquo;m using a SBM-20 tube, and need 
 The main design centers around a piezo transducer, resonant at around 40kHz (this depends on loading, coupling etc and should be tuned).</description>
     </item>
     
+    <item>
+      <title>Milling Machine</title>
+      <link>/projects/milling-machine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/milling-machine/</guid>
+      <description>As I move into more intensive and detailed projects, I increasing need to fabricate custom parts. Normally, I get through this with a 3D printer. It&amp;rsquo;s allowed me to make objects far more complex than I can reliably make by hand. That being said, I&amp;rsquo;m beginning to run up against the limitations of plastic. Even with wondermaterials like PET and HIPS, there&amp;rsquo;s no easy way to build high temp / high precision / high accuracy / high stress / high wear parts.</description>
+    </item>
+    
   </channel>
 </rss>
