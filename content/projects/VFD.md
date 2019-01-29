@@ -5,9 +5,10 @@ title = "Serial VFD"
 slug = 'vfd'
 
 +++
-I was rummaging through some junk during my break from school and found some old audio equipment, complete with a VFD for a front panel. I have some spare time on my hands, so I set aside some time to try and get it working. Lo and behold, it's a commercial module -- a CU20025SCPB-T20A from Noritake Itron. This makes things way easier.
+The VFD in its florescent blue glory.
+{{< youtube wPKwINaOQmE >}}
 
-If you just want to see the VFD in its florescent blue glory, [here](https://youtu.be/wPKwINaOQmE) is the YouTube video.
+I was rummaging through some junk during my break from school and found some old audio equipment, complete with a VFD for a front panel. I have some spare time on my hands, so I set aside some time to try and get it working. Lo and behold, it's a commercial module -- a CU20025SCPB-T20A from Noritake Itron. This makes things way easier.
 
 ![T20A][one]
 

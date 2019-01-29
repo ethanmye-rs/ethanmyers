@@ -19,8 +19,15 @@ Finally, I found a JET mill/drill from 1979 for sale on Craigslist for $800, neg
 One of the most important factors for a machine tool is rigidity and dampening ability. Rigidity is obvious -- good luck making straight parts when your machine is flexible and easily pushed around by the workpiece. On the other hand, dampening is a bit less obvious. People frequently use mass as a proxy for dampening ability, but this is only valid when we're talking about similar setups and identical materials.  [here](http://www.atlasfdry.com/grayiron-damping.htm) are the relative dampening abilities of cast iron vs steel vs iron vs aluminum. Cast iron, even conservatively , is 2 orders of magnitude better than aluminum at absorbing vibrations. 
 Cast iron has both rigidity and dampening in spades. For machine tools, there is no simply substitute.
 
-That being said, the JET is cast iron through and through. The gibs are cast iron, as well as the table, base and column. Despite the mill's superficial cleanliness, the ways were dirty with a mixture of old oil and old, never cleaned packing grease. I cleaned it all up with a bit of brakekleen, and relubricated the ways with Vactra #2 way oil. I also packed the leadscrews with lithium grease, as well as the thrust bearings.
+That being said, the JET is cast iron through and through. The gibs are cast iron, as well as the table, base and column. Despite the mill's superficial cleanliness, the ways were dirty with a mixture of old oil and old, never cleaned packing grease. I cleaned it all up with a bit of Brakekleen, and relubricated the ways with Vactra #2 way oil. I also packed the leadscrews with lithium grease, as well as the thrust bearings.
 
-Overall, I'm excited to use the mill in upcoming projects. It has immensely increased my ability to fabricate difficult pieces, as well as my abiity to take on longer, more involved projects. 
+![Mill][cleanways]
+![Mill][table]
+![Mill][table2]
+
+Overall, I'm excited to use the mill in upcoming projects. It has immensely increased my ability to fabricate difficult pieces, as well as my ability to take on longer, more involved projects. 
 
 [main]: /img/mill/IMG_0558.JPG
+[cleanways]: /img/mill/IMG_0547.JPG
+[table]: /img/mill/IMG_0548.JPG
+[table2]: /img/mill/IMG_0549.JPG
