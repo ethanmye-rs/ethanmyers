@@ -1,11 +1,11 @@
 +++
 date = "2015-08-22T06:42:21-07:00"
 draft = false
-title = "Reading Materials"
+title = "Library"
 
 +++
 
-I love to read. This is a list of books I own, have read, or am otherwise interested in.
+I love to read. This is a list of books I own, have read, or am otherwise interested in. Some have short reviews/thoughts.
 
 * **East Of Eden** *John Steinbeck*
 * **A People's History of The United States** *Howard Zinn*
@@ -49,9 +49,6 @@ I love to read. This is a list of books I own, have read, or am otherwise intere
 * **The Brothers Karamazov** *Fyodor Dostoevsky*
 * **Infinite Jest**  *David Foster Wallace*
 * **How to Win Friends and Influence People** *Dale Carnegie*
-* **Guide to Geometric Algebra in Practice** *Leo Dorst, Joan Lasenby*
-* **Materials Science and Engineering: An Introduction** *William D Callister*
-* **Mathematical Statistics with Applications** *John E. Freund*
 * **The Stand** *Stephen King*
 * **Homage to Catalonia** *George Orwell*
 * **The Jungle** *Upton Sinclair, Jr*
@@ -61,18 +58,17 @@ I love to read. This is a list of books I own, have read, or am otherwise intere
 * **Lord of the Flies** *William Golding*
 * **Tropic of Cancer** *Henry Miller*
 * **My Life** *Leon Trotsky*
-* **An Introduction to Dynamical Systems** *D. K. Arrowsmith, C. M. Place*
-* **Building Electro-Optical Systems: Making It all Work** *Phillip C. D. Hobbs*
 * **Sapiens** *Yuval Noah Harari*
 * **Beloved** *Toni Morison*
 * **The Giving Tree** *Shel Silverstein*
 * **Ready Player One** *Ernest Cline*
-* **The Martian** *Andy Weir*
-* **Fire and Fury: Inside the Trump White House** *Michael Wolff*
 * **The Alchemy of Air** *Thomas Hager*
 * **And Then There Were None** *Agatha Christie*
 * **Murder on the Orient Express** *Agatha Christie*
 * **The Sympathizer** *Viet Thanh Nguyen*
 * **Rules for Radicals** *Saul Alinsky*
-* **Fundamentals of Photonics** *Bahaa E. A. Saleh, Malvin Carl Teich*
-* **Laser Beam Shaping: Theory and Techniques** *Fred M. Dickey*
+* **GEB** *Michael Hofstadter*
+* **The Power Broker** *Robert Caro*
+* **Guns Germs and Steel** *Jared Diamond*
+* **Dark Pools** *Scott Patterson*
+* **[Fooled By Randomness](/books/fooledbyrandomness)** *Nassim Taleb*
