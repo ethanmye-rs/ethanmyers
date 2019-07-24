@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/projects/juul/</loc>
+    <loc>/books/fooledbyrandomness/</loc>
+    <lastmod>2017-12-26T17:09:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/juulpods/</loc>
+    <lastmod>2017-12-26T17:09:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/chips/</loc>
+    <lastmod>2017-12-26T17:09:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/buying-a-milling-machine/</loc>
     <lastmod>2017-12-26T17:09:14-05:00</lastmod>
   </url>
   
@@ -18,17 +33,7 @@
   </url>
   
   <url>
-    <loc>/projects/growlights/</loc>
-    <lastmod>2016-08-25T17:09:14-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/projects/geiger/</loc>
-    <lastmod>2016-08-25T17:09:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/acousticlevitation/</loc>
     <lastmod>2016-08-25T17:09:14-05:00</lastmod>
   </url>
   

@@ -15,3 +15,5 @@ What I’ve built to solve this problem is a general purpose programming jig usi
 I’m using a cheap USB to UART converter based on the CP2102. It and its ilk are dirt cheap and ubiquitous on eBay, and  in several variants. However, as long as there’s TX, RX, GND and 3.3V connections, it should all work fine.
 
 I’m also using platformio as a toolchain manager. It’s incredibly convenient to use as a CLI utility and makes compiling and uploading new firmware a breeze, even for a variety of platforms (AVR/PIC/MSP/ESP etc).
+
+*2017*

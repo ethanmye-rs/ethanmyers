@@ -59,6 +59,7 @@ Final result is viewable [here](https://youtu.be/wPKwINaOQmE).
 
  To convert the commands in the datasheet into something nice for the arduino, replace the H in the command with 0x and move it to the front, i.e, 08H --> 0x08.
 
+*2017*
 
 [one]: /img/VFD/IMG_0079.JPG
 [two]: /img/VFD/IMG_0081.JPG

@@ -21,19 +21,19 @@ blog  = "blog/:slug/"
 name                   = "About"
 weight                 = -120
 identifier             = "about"
-url                    = "/about/"
+url                    = "fixed/about/"
 
 [[menu.main]]
 name                   = "Projects"
 weight                 = -110
 identifier             = "projects"
-url                    = "/projects/"
+url                    = "fixed/projects/"
 
 [[menu.main]]
 name                   = "Books"
 weight                 = -100
 identifier             = "books"
-url                    = "/books/"
+url                    = "fixed/books/"
 
 [params]
 latestpostscount       = "0"                             # how many posts to display on the home page
@@ -46,9 +46,9 @@ description            = "Don't Panic"
 email                  = "ethan@ethanmye.rs"
 extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
 faviconfile            = "img/leaf.ico"
-#github                 = "//github.com/you"
+github                 = "//github.com/hasxz"
 lang                   = "en"
-noshowreadtime         = true                         # if true, don't show "<x> minutes read" in posts
+noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
 selfintro              = ""                            # appears in the site header when set to a non-empty string
 
 highlightjs            = false

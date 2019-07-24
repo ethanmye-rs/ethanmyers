@@ -71,4 +71,4 @@ I love to read. This is a list of books I own, have read, or am otherwise intere
 * **The Power Broker** *Robert Caro*
 * **Guns Germs and Steel** *Jared Diamond*
 * **Dark Pools** *Scott Patterson*
-* **[Fooled By Randomness](/books/fooledbyrandomness)** *Nassim Taleb*
+* **[Fooled By Randomness](/fixed/books/fooledbyrandomness)** *Nassim Taleb*

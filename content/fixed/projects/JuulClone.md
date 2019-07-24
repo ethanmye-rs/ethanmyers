@@ -1,7 +1,7 @@
 +++
 date = "2017-12-26T17:09:14-05:00"
 draft = false
-title = "Clone Juul Pods"
+title = "Copying Juul Pods"
 slug = 'juulpods'
 
 +++
@@ -59,3 +59,5 @@ You'll want to make sure you fully mix all ingredients. You can warm up the solu
 # Going Forward
 
 I don't actually vape, so this isn't a project I'll be pursing in the future. However, I think there are several avenues worth pursuing. Notably -- synthetic nicotine, which lacks the impurities that affect flavor in commercially available extracted nicotine (letting you dial up nicotine content even farther), compound acid mixtures (i.e, a mixture of malic acid and benzoic acid), reduced nicotine levels, novel carriers, etc.
+
+*2017*

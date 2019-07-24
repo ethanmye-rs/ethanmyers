@@ -9,10 +9,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
 <meta name="author" content="Ethan Myers">
-<meta name="description" content="I’m building a small product the uses the ESP8266 chipset to enable mesh networking between a variety of devices. However, I need a way to program them initially, before they go onto the carrier PCB that contains power &#43; peripherals. It’s a pain to try and breadboard or deadbug the 7 or so connections needed to flash new firmware, and both require soldering, something I’m trying to avoid, as they will be soldered in the final assembly and I’d like to reduce potential sources of failure.">
+<meta name="description" content="I’m building a small product the uses the ESP8266 chipset to enable mesh networking between a variety of devices. However, I need a way to program them initially, before they go onto the carrier PCB that contains power and peripherals. It’s a pain to try and breadboard or deadbug the 7 or so connections needed to flash new firmware, and both require soldering, something I’m trying to avoid, as they will be soldered in the final assembly and I would like to reduce potential sources of failure.">
 
 <meta property="og:title" content="ESP-12 Programming Jig" />
-<meta property="og:description" content="I’m building a small product the uses the ESP8266 chipset to enable mesh networking between a variety of devices. However, I need a way to program them initially, before they go onto the carrier PCB that contains power &#43; peripherals. It’s a pain to try and breadboard or deadbug the 7 or so connections needed to flash new firmware, and both require soldering, something I’m trying to avoid, as they will be soldered in the final assembly and I’d like to reduce potential sources of failure." />
+<meta property="og:description" content="I’m building a small product the uses the ESP8266 chipset to enable mesh networking between a variety of devices. However, I need a way to program them initially, before they go onto the carrier PCB that contains power and peripherals. It’s a pain to try and breadboard or deadbug the 7 or so connections needed to flash new firmware, and both require soldering, something I’m trying to avoid, as they will be soldered in the final assembly and I would like to reduce potential sources of failure." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/projects/esp12jig/" />
 
@@ -55,11 +55,11 @@
 
 
     
-    <link rel="stylesheet" href="/css/reset.css?t=2018-03-03%2021%3a17%3a18.6734112%20-0700%20MST%20m%3d%2b0.461995401">
-    <link rel="stylesheet" href="/css/pygments.css?t=2018-03-03%2021%3a17%3a18.6734112%20-0700%20MST%20m%3d%2b0.461995401">
-    <link rel="stylesheet" href="/css/main.css?t=2018-03-03%2021%3a17%3a18.6734112%20-0700%20MST%20m%3d%2b0.461995401">
+    <link rel="stylesheet" href="/css/reset.css?t=2019-05-28%2019%3a57%3a03.5395802%20-0600%20MDT%20m%3d%2b0.363619501">
+    <link rel="stylesheet" href="/css/pygments.css?t=2019-05-28%2019%3a57%3a03.5395802%20-0600%20MDT%20m%3d%2b0.363619501">
+    <link rel="stylesheet" href="/css/main.css?t=2019-05-28%2019%3a57%3a03.5395802%20-0600%20MDT%20m%3d%2b0.363619501">
     
-        <link rel="stylesheet" href="/css/override.css?t=2018-03-03%2021%3a17%3a18.6734112%20-0700%20MST%20m%3d%2b0.461995401">
+        <link rel="stylesheet" href="/css/override.css?t=2019-05-28%2019%3a57%3a03.5395802%20-0600%20MDT%20m%3d%2b0.363619501">
     
 
 
@@ -91,6 +91,8 @@
                 
                 
                 
+                
+                    
                 
                     
                 
@@ -155,7 +157,7 @@
         
 
         
-            <a href="mailto:myeeth@protonmail.ch"><img class="icon" src="/img/email.svg" alt="email" /></a>
+            <a href="mailto:ethan@ethanmye.rs"><img class="icon" src="/img/email.svg" alt="email" /></a>
         
 
         
@@ -176,11 +178,17 @@
 </div>
 
             <div class="markdown">
-                <p>I’m building a small product the uses the ESP8266 chipset to enable mesh networking between a variety of devices. However, I need a way to program them initially, before they go onto the carrier PCB that contains power + peripherals. It’s a pain to try and breadboard or deadbug the 7 or so connections needed to flash new firmware, and both require soldering, something I’m trying to avoid, as they will be soldered in the final assembly and I’d like to reduce potential sources of failure.</p>
+                <p>I’m building a small product the uses the ESP8266 chipset to enable mesh networking between a variety of devices. However, I need a way to program them initially, before they go onto the carrier PCB that contains power and peripherals. It’s a pain to try and breadboard or deadbug the 7 or so connections needed to flash new firmware, and both require soldering, something I’m trying to avoid, as they will be soldered in the final assembly and I would like to reduce potential sources of failure.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/3vYy9TrM9Js" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
+
 
 <p>What I’ve built to solve this problem is a general purpose programming jig using pogo pins and 3D printed parts. It holds the ESP-12 on a bed of pogo pins (also called a bed of nails) and allows the programmer to make reliable contact with all necessary pins merely by pressing down.</p>
 
-<p>I’m using a cheap USB to UART converter based on the CP2102. It and it’s ilk are dirt cheap and ubiquitous on eBay/Aliexpress/Taobao and come in several variants, but as long as there’s TX, RX, GND and 3.3V connections, it should work fine.</p>
+<p>I’m using a cheap USB to UART converter based on the CP2102. It and its ilk are dirt cheap and ubiquitous on eBay, and  in several variants. However, as long as there’s TX, RX, GND and 3.3V connections, it should all work fine.</p>
 
 <p>I’m also using platformio as a toolchain manager. It’s incredibly convenient to use as a CLI utility and makes compiling and uploading new firmware a breeze, even for a variety of platforms (AVR/PIC/MSP/ESP etc).</p>
 

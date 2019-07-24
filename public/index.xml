@@ -6,10 +6,40 @@
     <description>Recent content on Ethan Myers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 26 Dec 2017 17:09:14 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2019 17:09:14 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The best t-shirts $4 can buy</title>
+      <link>/projects/tshirt-analysis/</link>
+      <pubDate>Sun, 26 May 2019 17:09:14 -0500</pubDate>
+      
+      <guid>/projects/tshirt-analysis/</guid>
+      <description>Background Like every other college student on the planet, I wear a lot of t-shirts. Naturally, I have my favorites, but every shirt eventually wears out. My tees tend to be a hodgepodge of university sponsored swag, random souvenirs, and clothing bought from a smattering of retailers in styles they no longer carry. Needless to say, when a shirt wears out, it&amp;rsquo;s difficult, if not impossible, to find a replacement.</description>
+    </item>
+    
+    <item>
+      <title>Stickvise</title>
+      <link>/projects/stickvise/</link>
+      <pubDate>Sat, 26 Jan 2019 17:09:14 -0500</pubDate>
+      
+      <guid>/projects/stickvise/</guid>
+      <description>There&amp;rsquo;s a product called the stickvise, designed to be a low profile PCB vise. It&amp;rsquo;s a good idea, and a clean product. Normally, I would simply order one for $30 and get on with my life. But having a milling machine, aluminum stock and a desire to improve, I built my own.
+I used extruded aluminum, milled down to approx 75x15x25mm. This gives me 3 blocks, one to use as a fixed jaw, one to use as a movable jaw, and the third to use as a spring loaded clamp.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/books/fooledbyrandomness/</link>
+      <pubDate>Tue, 26 Dec 2017 17:09:14 -0500</pubDate>
+      
+      <guid>/books/fooledbyrandomness/</guid>
+      <description>Fooled By Randomness, Nicholas Taleb
+Fundamentally, the books boils down to the idea that people are shit at estimating risk, and even worse, regularly try to fit a normal model to anything that walks and talks. This results in some pretty funny, if financially catastrophic, fallout.
+Fine, fair enough, and a pretty interesting topic for a book. That being said, Taleb&amp;rsquo;s arrogance throughout the book is unnecessary and distracts from his message.</description>
+    </item>
     
     <item>
       <title>Clone Juul Pods</title>
@@ -22,12 +52,21 @@ Chief among the new purveyors of vape is a company called Juul. They make the ep
     </item>
     
     <item>
+      <title>Decapping microchips for refunds</title>
+      <link>/projects/chips/</link>
+      <pubDate>Tue, 26 Dec 2017 17:09:14 -0500</pubDate>
+      
+      <guid>/projects/chips/</guid>
+      <description>I buy quite a few microchips from China over the course of any project. Whether it&amp;rsquo;s jellybean parts or branded specialty parts, Aliexpress and eBay have everything imaginable for very attractive prices. That being said, the pedigree of most chips is murky at best, and given a shortage of any part, impostors peddling phony or damaged chips inevitably spring up. The only real way to check if you have the real deal is to pull the die out and check, a time consuming and honestly, kind of dangerous process.</description>
+    </item>
+    
+    <item>
       <title>Milling Machine</title>
       <link>/projects/buying-a-milling-machine/</link>
       <pubDate>Tue, 26 Dec 2017 17:09:14 -0500</pubDate>
       
       <guid>/projects/buying-a-milling-machine/</guid>
-      <description>As I move into more intensive and detailed projects, I increasing need to fabricate custom parts. Normally, I get through this with a 3D printer. It&amp;rsquo;s allowed me to make objects far more complex than I can reliably make by hand. That being said, I&amp;rsquo;m beginning to run up against the limitations of plastic and FDM printing. Even with wondermaterials like PET and HIPS, there&amp;rsquo;s no easy way to build high temp / high precision / high accuracy / high stress / high wear parts.</description>
+      <description>As I move into more intensive and detailed projects, I increasing need to fabricate custom parts. Normally, I get by with a 3D printer. It has allowed me to make objects far more complex than I can reliably make by hand. That being said, I&amp;rsquo;m beginning to run up against the limitations of plastic and FDM printing. Even with wondermaterials like PET and HIPS, there&amp;rsquo;s no easy way to build parts for more extreme applications &amp;ndash; high wear or high temperature, for example.</description>
     </item>
     
     <item>

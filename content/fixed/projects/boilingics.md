@@ -18,3 +18,5 @@ I used a cheap USB microscope to view the die and confirm the relabeling. Please
 {{< youtube e6DfBuPwAAA >}}
 
 You can clearly see the IR2112 marking on the left hand of the screen, around 16 seconds in.
+
+*2017*
