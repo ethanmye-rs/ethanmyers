@@ -72,3 +72,4 @@ I love to read. This is a list of books I own, have read, or am otherwise intere
 * **Guns Germs and Steel** *Jared Diamond*
 * **Dark Pools** *Scott Patterson*
 * **[Fooled By Randomness](/fixed/books/fooledbyrandomness)** *Nassim Taleb*
+* **[Concrete Planet](/fixed/books/concreteplanet)** *Robert Courland*
