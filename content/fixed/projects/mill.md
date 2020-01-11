@@ -1,5 +1,5 @@
 +++
-date = "2017-12-26T17:09:14-05:00"
+date = "2018-10-26T17:09:14-05:00"
 draft = false
 title = "Milling Machine"
 slug = 'Buying a Milling Machine'
@@ -26,7 +26,7 @@ That being said, the JET is cast iron through and through. The gibs are, as far 
 
 Overall, I'm excited to use the mill in upcoming projects. It has immensely increased my ability to fabricate difficult pieces, as well as my ability to take on longer, more involved projects. 
 
-*2017*
+*2018*
 
 [main]: /img/mill/IMG_0558.JPG
 [cleanways]: /img/mill/IMG_0547.JPG
